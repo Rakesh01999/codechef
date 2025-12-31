@@ -4,10 +4,10 @@ using namespace std;
 int main()
 {
     int n,m;cin>>n>>m;
-    if((m/n) >= 2)
+    if((m-n) >= n)
         cout<<n<<endl;
     else{
-        cout<<(m/n) +1<<endl;
+        cout<<(m-n)<<endl;
     }
     
     return 0;
